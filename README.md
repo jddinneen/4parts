@@ -12,13 +12,13 @@ A sequencer app for Ornaments + Crimes that emulates composing four-part harmony
 
 **Limitations**: setting a single note to be outside the scale (e.g. a C# while in C) is not currently supported, but could be achieved with a precision adder. Note *length* (e.g. half notes, triplets...) is also not handled by the app, but can be achieved with VCAs. Currently only the 7 modern Western modes are present. And most notably, I wrote this app with no prior experience of C++/Arduino, so there are likely bugs, problems, ugly code... I take no responsibility for your use of the app, flashing, wasted time, etc.
 
-**Credit**: see the app's ino file.
+**Credit**: my thanks to the O_C firwmare creators (Patrick Dowling, Tim Churches, mxmxmx) and to Chysn and Naomi Seyfer for tutorials and inspiration.
 
 ## Installing 4 Parts
 
 As with the default O_C firmware there are two possibilities:
- 1. [Download](https://github.com/jddinneen/4parts) and flash the pre-compiled hex file, which is the default O_C firmware but with some apps replaced with this one.
- 2. [Download](https://github.com/jddinneen/4parts) the app file (APP_FPART.ino) from github, put that file in the O_C firmware compilation folder, add the app to the apps array(s) near the top of OC_APPS.ino (e.g. DECLARE_APP('F','P', "4 Parts", FPART, FPART_isr)) and comment out a few other apps to make space for this one, then compile and flash as normal. *You need at least five apps* enabled, but not so many that all the storage space or dynamic memory is used up (the compiler will warn you).
+ 1. Download and flash a pre-compiled hex file (above). It's the default O_C firmware but with some apps replaced with this one.
+ 2. Download the app file ([APP_FPART.ino](https://github.com/jddinneen/4parts/blob/main/APP_FPART.ino)), put that file in the O_C firmware compilation folder, add the app to the apps array(s) near the top of OC_APPS.ino (e.g. DECLARE_APP('F','P', "4 Parts", FPART, FPART_isr)) and comment out a few other apps to make space for this one, then compile and flash as normal. *You need at least five apps* enabled, but not so many that all the storage space or dynamic memory is used up (the compiler will warn you).
 
 How to do the compiling and flashing is covered [here](https://ornament-and-cri.me/firmware/).
 
