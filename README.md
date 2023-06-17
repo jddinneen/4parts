@@ -2,6 +2,8 @@
 
 A sequencer app for Ornaments + Crimes that emulates composing four-part harmony.
 
+[<img src="https://github.com/jddinneen/4parts/blob/main/4parts.jpg" width="50%"/>](https://github.com/jddinneen/4parts/blob/main/4parts.jpg)
+
 ## Description and user guide
 
 **4 Parts** is a 4-channel, 99-step sequencer app for Ornaments & Crimes (O_C) that emulates composing four-part harmony on sheet music. Four chords/steps are displayed at a time across two staffs: the active step, which is highlighted to show it is editable and determines the current output, the step before, and two steps after. Each chord has four notes, one per output, with its own icon: a hollow circle and square for A & B and a filled versions for C & D (an on-screen legend keeps this clear). Long press down toggles between the staffs and settings screens, long press right encoder does the usual (menu/save). Settings include root(/tonic) and scale(/mode), channel octaves, and looping start and end points. Accidental notes (e.g. sharps) of the tonic/mode combination are not yet visually indicated, but function correctly nonetheless. All 99 chords are saved upon instruction, loaded on boot, and can be cleared in the usual way O_C way.
