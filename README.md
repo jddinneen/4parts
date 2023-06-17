@@ -12,7 +12,7 @@ A sequencer app for Ornaments + Crimes that emulates composing four-part harmony
 
 **Limitations**: setting a single note to be outside the scale (e.g. a C# while in C) is not currently supported, but could be achieved with a precision adder. Note *length* (e.g. half notes, triplets...) is also not handled by the app, but can be achieved with VCAs. Currently only the 7 modern Western modes are present. And most notably, I wrote this app with no prior experience of C++/Arduino, so there are likely bugs, problems, ugly code... I take no responsibility for your use of the app, flashing, wasted time, etc.
 
-**Credit**: my thanks to the O_C firwmare creators (Patrick Dowling, Tim Churches, mxmxmx) and to Chysn and Naomi Seyfer for tutorials and inspiration.
+**Credit**: my thanks to the O_C firmware creators (Patrick Dowling, Tim Churches, mxmxmx) and to Chysn and Naomi Seyfer for tutorials and inspiration.
 
 ## Installing 4 Parts
 
