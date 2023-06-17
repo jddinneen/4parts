@@ -1,4 +1,4 @@
-# 4parts
+# 4 Parts
 
 A sequencer app for Ornaments + Crimes that emulates composing four-part harmony.
 
